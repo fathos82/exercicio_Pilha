@@ -26,8 +26,7 @@ public class Main {
         int tamanhoPilha = pilha.length();
         for (int i = 0; i < tamanhoPilha; i++) {
             palavra = "";
-            palavra = pilha.top();
-            System.out.println(pilha.top());
+            palavra = pilha.top();            
             if (palavra != null) {
                 for (int j = palavra.length()-1; j >=0;  j--) {
                     frase+= Character.toString(palavra.charAt(j));
